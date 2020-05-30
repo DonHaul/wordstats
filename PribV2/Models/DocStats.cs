@@ -7,10 +7,12 @@ namespace PribV2.Models
 {
     public class DocStats
     {
+        //number of documents received
+        public int DocumentCount { get; set; }
         
-        public long DocumentCount { get; set; }
-        
-        public Dictionary<string, WordStats> Statistics;
+        //dict with single word statistics
+        public Dictionary<string, WordStats> Statistics { get; set; }
+
 
     }
 }

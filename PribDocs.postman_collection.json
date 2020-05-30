@@ -1,0 +1,105 @@
+{
+	"info": {
+		"_postman_id": "339102db-4939-435d-80bc-074713230c59",
+		"name": "PribDocs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Doc Stats",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"title\":\"A mensagem\",\n\t\"body\":\"Como é que vai isso?\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/document/statistics",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"document",
+						"statistics"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Put New Document",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"title\":\"A mensagem\",\n\t\"body\":\"Lorem lorem ipsum ipsum\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/document",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"document"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "fb60a747-5b83-4b2c-9453-916dd1916cd3",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "ca81110e-1980-4549-8bea-b90c9a13c865",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"id": "5b95e62a-2fde-4b91-905a-3b069dea269d",
+			"key": "port",
+			"value": "8080",
+			"type": "string"
+		},
+		{
+			"id": "45dee636-bd07-4522-af2d-030c25be8a01",
+			"value": "",
+			"type": "string",
+			"disabled": true
+		}
+	],
+	"protocolProfileBehavior": {}
+}

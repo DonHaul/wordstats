@@ -16,7 +16,7 @@ namespace PribV2.Models
         //set with all the words
         public DbSet<DocWord> DocWords { get; set; }
 
-        //total documents receives through the /api/documents  endpoint.
-        public int DocumentCount;
+        //DB with single entry to store number of documents analysed
+        public DbSet<GlobalVar> Globals { get; set; }
     }
 }
