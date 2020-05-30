@@ -24,6 +24,6 @@ For Simplicity sake, ```http``` was used instead of the now standard ```https```
 Because of that, a normal browser can't acess the endpoints. So:
 1) Install Postman or similar
 2) Disable SSL by doing:  ```File```> ```Settings```> ```General```>```SSSL certificate verification```> OFF
-3) (Optional) Import the ```PribDocs.postman_collection.json````file to postman.
-4) Post some docs and stats using the endpoints in [here](https://web.postman.co/collections/3388796-339102db-4939-435d-80bc-074713230c59?version=latest&workspace=0190420b-7526-42e8-8ab1-4606ba283b94)
+3) (Optional) Import the ```PribDocs.postman_collection.json``` file to postman.
+4) Use the api  the endpoints in [here](https://documenter.getpostman.com/view/3388796/SztEYS7B)
 
