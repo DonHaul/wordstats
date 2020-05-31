@@ -7,7 +7,7 @@
 2) Run the ```InitializeDB.sql``` in order to create the necessary tables and entries. (This can be done through Visual Studio 2019)
 3) To build and run open VS19 and make sure to use the PribV2 launchsettings profile to start, which will run it on ```http://localhost:8080```
 
-Alternative, if there's no need for a persistent db, on the ```Startup.cs```, chage the ConfigureServices() function for the following:
+Alternative, if there's no need for a persistent db, on the ```Startup.cs```, change the ConfigureServices() function for the following:
 ```
 public void ConfigureServices(IServiceCollection services)
         {
